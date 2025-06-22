@@ -112,9 +112,11 @@ body {
   font-style: italic;
   font-size: 12px;
   font-weight: 600;
-  margin: 5px;
-  display: inline;
-  margin-left: 56.1%;
+  width: 100%;
+  text-align: right;
+  float: none;
+  margin: 3px;
+  padding: 0;
   display: none;
 }
 
@@ -126,7 +128,7 @@ body {
   padding-block: 10px;
   border-radius: 5px;
   transition: 0.3s ease;
-  box-shadow: 0 2px 0 rgb(0, 0, 0,0.5);
+  box-shadow: 0 2px 0 rgb(0, 0, 0, 0.5);
   outline: none;
 }
 
@@ -163,27 +165,29 @@ body {
 
 @media (max-width:488px) {
   .form-action {
-  width: 23rem;
-} 
+    width: 23rem;
+  }
 }
 
 @media (max-width:453px) {
   .form-action {
-  width: 20rem;
-}
+    width: 20rem;
+  }
 }
 
 
 @media (max-width:406px) {
   .form-action {
-  width: 17rem;
-} 
+    width: 17rem;
+  }
 }
+
 @media (max-width:374px) {
   .form-action {
-  width: 15rem;
-} 
+    width: 15rem;
+  }
 }
+
 @media (max-width:455px) {
   .container {
     margin-top: 70px;
