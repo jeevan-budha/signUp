@@ -87,6 +87,9 @@ body {
   overflow: hidden;
   text-align: center;
 }
+.border-color{
+  border:1px solid var(--red-color);
+}
 
 .input-wrapper input {
   padding: 10px 10px;
@@ -145,6 +148,10 @@ body {
 
 .terms a {
   text-decoration: none;
+  color: var(--red-color);
+}
+
+.input-email::placeholder{
   color: var(--red-color);
 }
 
